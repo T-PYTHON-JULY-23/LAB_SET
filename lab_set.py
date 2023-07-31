@@ -56,13 +56,13 @@ elif Count_Nestle_Products == Count_Unilever_Products:
 print('-'*10)
 print("The top selling product from Nestle") 
 
-Top_Nestle = max(Sales_Of_Nestle)
+Top_Nestle = max(Sales_Of_Nestle.values())
 print(Top_Nestle)
 
 print('-'*10)
 print("The top selling product from Unilever") 
 # مشكله
-Top_Unilever = max(Sales_Of_Unilever)
+Top_Unilever = max(Sales_Of_Unilever.values())
 print(Top_Unilever)
 
 print('-'*10)
