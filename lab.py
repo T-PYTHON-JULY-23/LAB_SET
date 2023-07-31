@@ -57,7 +57,7 @@ print(f"\nThe top selling Unilever product is {top_unilever_product} with {top_u
 
 
 # --------------------------------------------------------------------
-print(f"\nCities where both Nestle and Unilever sell their products: {nestle_cities.intersection(unilever_cities)}")
+print(f"\nCities where both Nestle and Unilever sell their products: {nestle_cities.union(unilever_cities)}")
 print(f"\nAll cities where Nestle sells its products: {nestle_cities}")
 print(f"\nAll cities where Unilever sells its products: {unilever_cities}")
 
