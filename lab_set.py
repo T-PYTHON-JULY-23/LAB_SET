@@ -1,18 +1,18 @@
 # Create a variable to hold the values of Nestle products (use a dicitionary)
 Nestle_products = {
-    "34,456,432 US Dollars": "KitKat",
-    "14,106,132 US Dollars" : "Nescafe",
-    " 9,960,312 US Dollars" : "Maggi",
-     "44,506,003 US Dollars" : "Nido"
+    "KitKat" : 34_456_432, 
+    "Nescafe": 14_106_132  ,
+    "Maggi" : 9_960_312 ,
+     "Nido" : 44_506_003 
 
 }
 
 #- Create a variable to hold the values of Unilever products (Use a dictionary)
 Unilever_products = {
-    "23,456,000 US Dollars" : "Lipton" , 
-    "1,235,891 US Dollars" : "Breyers",
-    "17,241,412 US Dollars" : "HellManns",
-    "11,715,324 US Dollars" : "Marmite"
+    "Lipton"  : 23_456_000 , 
+    "Breyers": 1_235_891 ,
+    "HellManns": 17_241_412 ,
+    "Marmite" : 11_715_324
 }
 
 
@@ -44,10 +44,11 @@ print("-"*30)
 
 #Print the top selling product from Nestle with sales figures.
 # Print the top selling product from Unilever with sales figures.
-max_value1 = max(Nestle_products)
-print(f"top selling product from Nestle: {max_value1}")
+max_value1 = max(Nestle_products.values())
+print(f"top selling product in Nestle: {max_value1}") 
 
-max_value2 = max(Unilever_products)
+
+max_value2 = max(Unilever_products.values())
 print(f"top selling product from Unilever: {max_value2}")
 print("-"*30)
 
@@ -72,7 +73,7 @@ print("-"*30)
 
 #Using Sets & a loop, print the cities that both Nestle & Unilver sell in common.
 cities_intersaction = set_cities_nestle.intersection(set_cities_unilever)
-print("cities that both Nestle & Unilver both in: ")
+print("cities that both Nestle & Unilver sel in: ")
 for city_in in cities_intersaction:
     print(city_in)
 
