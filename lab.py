@@ -15,21 +15,22 @@ unilever={"Lipton" : 23456000,
            "HellManns":17241412,
            "Marmite" :11715324
            }
-
+print("Nestle Sales")
 for key, value in nestle.items():
     print(key, ":", value, "US Dollars")
 
 print("-"*30)
+print("Nestle Unilever")
 for key, value in unilever.items():
     print(key, ":", value, "US Dollars")
 
 #- Print which of the companies has more products that the other company.
 if len(nestle) > len(unilever):
-    print("nestle company more ")
+    print("Nestle has the most products ")
 elif len(nestle) < len(unilever):
-    print("unilever company more")
+    print("Unilever has the most products")
 else:
-    print("\nThe same companies")
+    print("\nBoth Nestle & Unileverhas same prodact count")
 
 
 print("-"*30)
