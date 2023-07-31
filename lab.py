@@ -1,9 +1,3 @@
-## Using what you've learned during . Please do the following :
-'''- Create a variable to hold the values of Nestle products (use a dicitionary)
-- Create a variable to hold the values of Unilever products (Use a dictionary)
-- Print each product sold by Unilever and the sales figures / numbers  for that product.
-- Print each product sold by Nestle and the sales figures / numbers  for that product.'''
-
 
 nestle ={"KitKat": 34456432,
          "Nescafe":14106132,
