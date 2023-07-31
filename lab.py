@@ -20,7 +20,7 @@ for key, value in nestle.items():
     print(key, ":", value, "US Dollars")
 
 print("-"*30)
-print("Nestle Unilever")
+print("Unilever Sales")
 for key, value in unilever.items():
     print(key, ":", value, "US Dollars")
 
