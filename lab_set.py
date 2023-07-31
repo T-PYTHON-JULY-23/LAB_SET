@@ -73,12 +73,12 @@ for val in Unilever_and_Nestle:
 
 print('-'*10)
 print("Unilever and Nestle the list of the cities they both sell their products in: ")
-Unilever_common_Nestle = Countries_Nestle.intersection(Countries_Unilever)
+_common_Nestle = Countries_Nestle.intersection(Countries_Unilever)
 for val in Unilever_common_Nestle:
     print("- ",val)
 
 print('-'*10)
 print("Ucities Nestle sells in , but Unilver doens't sell in: ")
-Unilever_common_Nestle = Countries_Nestle.intersection(Countries_Unilever)
-for val in Unilever_common_Nestle:
+Nestle_not_Unilever= Countries_Nestle.difference(Countries_Unilever)
+for val in Nestle_not_Unilever:
     print("- ",val)
