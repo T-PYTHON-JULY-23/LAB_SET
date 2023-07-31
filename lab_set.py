@@ -73,7 +73,7 @@ for val in Unilever_and_Nestle:
 
 print('-'*10)
 print("Unilever and Nestle the list of the cities they both sell their products in: ")
-_common_Nestle = Countries_Nestle.intersection(Countries_Unilever)
+Unilever_common_Nestle = Countries_Nestle.intersection(Countries_Unilever)
 for val in Unilever_common_Nestle:
     print("- ",val)
 
