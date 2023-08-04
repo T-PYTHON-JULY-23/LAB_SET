@@ -37,14 +37,14 @@ def countProducts(company1,company2) :
 
 def TopSelling (company):
   
-  for key, value in company.items():
-   maxvValue=0
-   maxKey=""
-   if value > maxvValue:
-     maxvValue=value
-     maxKey=key
- 
-  print(f"The top selling product is  {maxKey}: ${maxvValue}")
+  #for key, value in company.items():
+   #maxvValue=0
+   #maxKey=""
+   #if value > maxvValue:
+     #maxvValue=value
+     #maxKey=key
+
+  print(f"The top selling product is  {max(company.keys())} :{max(company.values())}")
    
     
 def countriesUnion(country1,country2):
